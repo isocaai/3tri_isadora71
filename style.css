@@ -2,6 +2,8 @@
 Cole o código logo abaixo. */
 
 
+
+
 /*Esta parte indica a fonte que você vai usar no seu projeto, para conseguí-la, siga os passoa abaixo::after
 Entre no endereço abaixo
 https://fonts.google.com/
@@ -13,6 +15,8 @@ Selecione a opção - @import
 Copie tudo (somente) dentro da tag – Style
  */
  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
 
 
  /*O código abaixo indica as cores que iremos utilizar no projeto
@@ -59,8 +63,6 @@ h1 {
     color: var(--bg-color);
     /*Peso da fonte*/
     font-weight: 700;
-
-
 }
 /*Agora vamos estilizar o Nav*/
 nav {
@@ -90,9 +92,13 @@ nav a:hover {
 }
 
 
+
+
 .graficos-container {
     margin: 5rem;
 }
+
+
 
 
 .graficos-container__texto {
@@ -103,16 +109,12 @@ nav a:hover {
 }
 
 
+
+
 span {
     font-weight: bold;
     color: var(--secondary-color);
 }
-
-
-
-
-
-
 /*Agora vamos estilizar o Footer*/
 footer {
     display: flex;
