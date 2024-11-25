@@ -4,6 +4,10 @@ Cole o código logo abaixo. */
 
 
 
+
+
+
+
 /*Esta parte indica a fonte que você vai usar no seu projeto, para conseguí-la, siga os passoa abaixo::after
 Entre no endereço abaixo
 https://fonts.google.com/
@@ -15,6 +19,10 @@ Selecione a opção - @import
 Copie tudo (somente) dentro da tag – Style
  */
  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+
+
 
 
 
@@ -40,7 +48,7 @@ Copie tudo (somente) dentro da tag – Style
      /*O comando abaixo indicará a cor de texto a ser usado no projeto*/
      color: var(--primary-color);
      /*O comando abaixo indicará a fonte a ser usado no projeto*/
-     font: var(--font);
+     font-family: var(--font);
      /*Para usar toda a disposição da tela que temos*/
      height: 100vh;
      /*Para deixar sem margem*/
@@ -58,7 +66,7 @@ Copie tudo (somente) dentro da tag – Style
 /*Agora vamos estilizar o h1, que está dentro do header*/
 h1 {
     /*tamanho da fonte*/
-    font-size: 2 rem;
+    font-size: 2rem;
     /*cor da letra*/
     color: var(--bg-color);
     /*Peso da fonte*/
@@ -86,7 +94,7 @@ nav a:hover {
     /*aparece o underline*/
     text-decoration: underline;
     /*aumenta um pouco o tamanho da letra*/
-    transform: escale(0.90);
+    transform: scale(0.90);
     /*altera a velocidade*/
     transition: transform 0.1s;
 }
@@ -96,6 +104,12 @@ nav a:hover {
 
 .graficos-container {
     margin: 5rem;
+}
+
+
+/**Ajustando o gráfico na página**/
+.grafico {
+    margin-top: 3rem;
 }
 
 
